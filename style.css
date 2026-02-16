@@ -69,6 +69,7 @@ nav ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -160,7 +161,7 @@ h2 { margin-bottom: 2rem; font-size: 2rem; border-bottom: 3px solid #0056b3; dis
       gap: 20px;
       justify-content: center;
       padding: 20px;
-    }
+ }
     .card {
     background-color: var(--card-bg);
     color: var(--text-color);
@@ -259,6 +260,79 @@ h2 { margin-bottom: 2rem; font-size: 2rem; border-bottom: 3px solid #0056b3; dis
     border-bottom: 2px solid var(--heading-border);
     padding-bottom: 5px;
     margin-bottom: 15px;
+}
+.card-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+#contact h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #0056b3;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #4b47c2;
 }
 footer {
     background: #0056b3;
